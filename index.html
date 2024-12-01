@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal Map Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DirectX - OpenGL Normal Map Converter</h1>
+        <p>Upload a normal map, and choose the conversion type.</p>
+        <form id="converter-form">
+            <input type="file" id="fileInput" accept="image/*">
+            <select id="conversionType">
+                <option value="dx-to-gl">DirectX to OpenGL</option>
+                <option value="gl-to-dx">OpenGL to DirectX</option>
+            </select>
+            <button type="button" id="convertButton">Convert</button>
+        </form>
+        <canvas id="outputCanvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
