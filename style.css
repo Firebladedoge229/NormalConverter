@@ -1,0 +1,36 @@
+body {
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #34eb8f;
+    color: #0F0F0F;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #28c77a;
+}
